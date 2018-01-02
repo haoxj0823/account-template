@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { AppComponent } from './app.component';
-import { AppTestComponent } from './app-test/app-test.component';
+import { AccountComponent } from './account.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
     {
         path: '',
-        component: AppComponent,
+        component: AccountComponent,
         children: [
             {
-                path: 'test',
-                component: AppTestComponent
+                path: 'login',
+                component: LoginComponent
             }
         ]
     },
@@ -21,9 +21,9 @@ const routes: Routes = [
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AccountRoutingModule { }
 
 export const routedComponents = [
-    AppComponent,
-    AppTestComponent
+    AccountComponent,
+    LoginComponent
 ];

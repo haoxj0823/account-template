@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule, routedComponents } from './app-routing.module';
+import { AccountRoutingModule, routedComponents } from './account-routing.module';
 
 @NgModule({
     imports: [
-        AppRoutingModule
+        AccountRoutingModule
     ],
     exports: [],
     declarations: [
@@ -12,4 +12,4 @@ import { AppRoutingModule, routedComponents } from './app-routing.module';
     ],
     providers: [],
 })
-export class AppModule { }
+export class AccountModule { }
