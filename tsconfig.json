@@ -8,6 +8,10 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "types": [
+      "jquery",
+      "semantic-ui"
+    ],
     "typeRoots": [
       "node_modules/@types"
     ],

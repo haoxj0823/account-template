@@ -21,7 +21,10 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
+    "@types/jquery": "^3.2.17",
+    "@types/semantic-ui": "^2.2.6",
     "core-js": "^2.4.1",
+    "jquery": "^3.2.1",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },
