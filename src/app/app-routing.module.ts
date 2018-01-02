@@ -10,6 +10,10 @@ const routes: Routes = [
         component: AppComponent,
         children: [
             {
+                path: '',
+                component: AppTestComponent
+            },
+            {
                 path: 'test',
                 component: AppTestComponent
             }
