@@ -1,1 +1,84 @@
-<button class="ui button">Button</button>
+<div class="ui middle aligned center aligned grid container">
+    <div class="row"></div>
+    <div class="row">
+        <div class="column">
+            <h1 class="ui blue normal header">
+                <div class="content">用户登录</div>
+            </h1>
+            <div class="ui large form">
+                <div class="ui left aligned padded segment">
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="icon user"></i>
+                            <input type="text" name="user" id="user" placeholder="请输入用户名/邮箱/手机号">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="icon lock"></i>
+                            <input type="password" name="password" id="password" placeholder="请输入用户密码">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui grid">
+                            <div class="ten wide column">
+                                <div class="ui left icon input">
+                                    <i class="icon hashtag"></i>
+                                    <input type="text" name="validate" id="validate" placeholder="请输入验证码">
+                                </div>
+                            </div>
+                            <div class="six wide column">
+                                <button class="ui fluid button validate">&nbsp;</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <input type="checkbox" class="hidden" name="me" id="me">
+                            <label>下次自动登录</label>
+                        </div>
+                    </div>
+                    <button class="ui fluid large normal primary button">登录</button>
+                    <div class="ui normal horizontal divider">使用以下账号登录</div>
+                    <div class="ui center aligned grid">
+                        <div class="five column row">
+                            <div class="column">
+                                <button class="ui blue small circular icon button">
+                                    <i class="icon qq"></i>
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button class="ui green small circular icon button">
+                                    <i class="icon wechat"></i>
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button class="ui red small circular icon button">
+                                    <i class="icon weibo"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui normal message error">
+                <i class="ui icon close"></i>
+                <div class="ui left aligned header">错误</div>
+                <ul class="list">
+                    <li>错误信息</li>
+                    <li>错误信息</li>
+                </ul>
+            </div>
+            <div class="ui message">
+                <div class="ui breadcrumb">
+                    <a href="">用户注册</a>
+                    <div class="divider">|</div>
+                    <a href="">忘记密码</a>
+                    <div class="divider">|</div>
+                    <a href="">邮件激活</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row"></div>
+</div>
