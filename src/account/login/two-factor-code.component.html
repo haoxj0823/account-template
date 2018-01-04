@@ -1,0 +1,38 @@
+<div class="ui middle aligned center aligned grid container">
+    <div class="row"></div>
+    <div class="row">
+        <div class="column">
+            <h1 class="ui blue normal header">
+                <div class="content">再次验证</div>
+            </h1>
+            <div class="ui large form">
+                <div class="ui left aligned padded segment">
+                    <div class="field">
+                        <label class="normal">请选择一个接收验证码的方式</label>
+                        <select>
+                            <option value="0">手机号码 130****1234</option>
+                            <option value="1">邮箱地址 py***@139.com</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label class="normal">请输入接收到的验证码</label>
+                        <div class="ui action input">
+                            <input type="text" name="validate-code" id="validate-code" placeholder="请输入验证码">
+                            <button class="ui button validate-code">获取验证码</button>
+                        </div>
+                    </div>
+                    <button class="ui fluid large normal primary button">确定</button>
+                </div>
+            </div>
+            <div class="ui normal message error">
+                <i class="ui icon close"></i>
+                <div class="ui left aligned header">错误</div>
+                <ul class="list">
+                    <li>错误信息</li>
+                    <li>错误信息</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row"></div>
+</div>

@@ -7,9 +7,9 @@ import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordEmailComponent } from './password/forgot-password-email.component';
 import { ResetPasswordComponent } from './password/reset-password.component';
 import { ForgotPasswordPhoneComponent } from './password/forgot-password-phone.component';
-import { ResetPasswordMailComponent } from './password/reset-password-mail.component';
 import { EmailActivationComponent } from './email-activation/email-activation.component';
 import { SuccessComponent } from './shared/success.component';
+import { TwoFactorCodeComponent } from './login/two-factor-code.component';
 
 const routes: Routes = [
     {
@@ -17,11 +17,11 @@ const routes: Routes = [
         component: AccountComponent,
         children: [
             { path: 'login', component: LoginComponent },
+            { path: 'two-factor-code', component: TwoFactorCodeComponent },
             { path: 'register', component: RegisterComponent },
             { path: 'forgot-password-email', component: ForgotPasswordEmailComponent },
             { path: 'forgot-password-phone', component: ForgotPasswordPhoneComponent },
             { path: 'reset-password', component: ResetPasswordComponent },
-            { path: 'reset-password-mail', component: ResetPasswordMailComponent },
             { path: 'email-activation', component: EmailActivationComponent },
             { path: 'success', component: SuccessComponent }
         ]
@@ -37,11 +37,11 @@ export class AccountRoutingModule { }
 export const routedComponents = [
     AccountComponent,
     LoginComponent,
+    TwoFactorCodeComponent,
     RegisterComponent,
     ForgotPasswordEmailComponent,
     ForgotPasswordPhoneComponent,
     ResetPasswordComponent,
-    ResetPasswordMailComponent,
     EmailActivationComponent,
     SuccessComponent
 ];
