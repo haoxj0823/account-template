@@ -1,0 +1,14 @@
+$menu-height: 50px;
+
+.ui.menu {
+    height: $menu-height;
+}
+
+.router-outlet {
+    height: calc(100% - #{$menu-height});
+}
+
+.header {
+    font-size: 1.8em;
+    font-weight: normal !important;
+}

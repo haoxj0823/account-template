@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    template: '<router-outlet></router-outlet>'
+    templateUrl: './account.component.html',
+    styleUrls: ['./account.component.scss']
 })
 export class AccountComponent { }
