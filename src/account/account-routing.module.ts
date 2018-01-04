@@ -8,9 +8,8 @@ import { ForgotPasswordEmailComponent } from './password/forgot-password-email.c
 import { ResetPasswordComponent } from './password/reset-password.component';
 import { ForgotPasswordPhoneComponent } from './password/forgot-password-phone.component';
 import { ResetPasswordMailComponent } from './password/reset-password-mail.component';
-import { ResetPasswordSuccessComponent } from './password/reset-password-success.component';
 import { EmailActivationComponent } from './email-activation/email-activation.component';
-import { EmailActivationSuccessComponent } from './email-activation/email-activation-success.component';
+import { SuccessComponent } from './shared/success.component';
 
 const routes: Routes = [
     {
@@ -23,9 +22,8 @@ const routes: Routes = [
             { path: 'forgot-password-phone', component: ForgotPasswordPhoneComponent },
             { path: 'reset-password', component: ResetPasswordComponent },
             { path: 'reset-password-mail', component: ResetPasswordMailComponent },
-            { path: 'reset-password-success', component: ResetPasswordSuccessComponent },
             { path: 'email-activation', component: EmailActivationComponent },
-            { path: 'email-activation-success', component: EmailActivationSuccessComponent }
+            { path: 'success', component: SuccessComponent }
         ]
     },
 ];
@@ -44,7 +42,6 @@ export const routedComponents = [
     ForgotPasswordPhoneComponent,
     ResetPasswordComponent,
     ResetPasswordMailComponent,
-    ResetPasswordSuccessComponent,
     EmailActivationComponent,
-    EmailActivationSuccessComponent
+    SuccessComponent
 ];
