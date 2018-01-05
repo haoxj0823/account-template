@@ -779,6 +779,12 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
+block-ui@^2.70.1:
+  version "2.70.1"
+  resolved "http://registry.npm.taobao.org/block-ui/download/block-ui-2.70.1.tgz#c862d64ee6288fb78123377c6680bc7ab262103f"
+  dependencies:
+    jquery ">=1.7.x"
+
 blocking-proxy@0.0.5:
   version "0.0.5"
   resolved "http://registry.npm.taobao.org/blocking-proxy/download/blocking-proxy-0.0.5.tgz#462905e0dcfbea970f41aa37223dda9c07b1912b"
@@ -3208,7 +3214,7 @@ jasminewd2@^2.1.0:
   version "2.2.0"
   resolved "http://registry.npm.taobao.org/jasminewd2/download/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
 
-jquery@>=1.12.0, jquery@^3.2.1:
+jquery@>=1.12.0, jquery@>=1.7.x, jquery@^3.2.1:
   version "3.2.1"
   resolved "http://registry.npm.taobao.org/jquery/download/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
