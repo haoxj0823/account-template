@@ -9,3 +9,5 @@
 ///<reference path="../node_modules/@types/moment-timezone/index.d.ts"/>
 ///<reference path="../node_modules/@types/signalr/index.d.ts"/>
 ///<reference path="../node_modules/@types/toastr/index.d.ts"/>
+
+declare var System: any;
