@@ -203,6 +203,12 @@
   version "3.2.17"
   resolved "http://registry.npm.taobao.org/@types/jquery/download/@types/jquery-3.2.17.tgz#01df9805dd5cf83a14cf5bfd81adced7d4fbd970"
 
+"@types/moment-timezone@^0.5.3":
+  version "0.5.3"
+  resolved "http://registry.npm.taobao.org/@types/moment-timezone/download/@types/moment-timezone-0.5.3.tgz#66aecb4e8291c2bcf4fad9bfd51367c1edbd80c6"
+  dependencies:
+    moment ">=2.14.0"
+
 "@types/node@^6.0.46", "@types/node@~6.0.60":
   version "6.0.95"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-6.0.95.tgz#0d027612a77c55b84497ff90a4a7d597e5ac0fab"
@@ -364,6 +370,18 @@
     "@types/semantic-ui-tab" "*"
     "@types/semantic-ui-transition" "*"
     "@types/semantic-ui-visibility" "*"
+
+"@types/signalr@^2.2.35":
+  version "2.2.35"
+  resolved "http://registry.npm.taobao.org/@types/signalr/download/@types/signalr-2.2.35.tgz#88b37702fac663c91a0f655a3577cba2d20fb2f1"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/toastr@^2.1.35":
+  version "2.1.35"
+  resolved "http://registry.npm.taobao.org/@types/toastr/download/@types/toastr-2.1.35.tgz#9b29ee786744994c4f7eafee415b125f835dd854"
+  dependencies:
+    "@types/jquery" "*"
 
 abbrev@1:
   version "1.1.1"
@@ -3748,7 +3766,7 @@ moment-timezone@^0.5.14:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.20.1:
+"moment@>= 2.9.0", moment@>=2.14.0, moment@^2.20.1:
   version "2.20.1"
   resolved "http://registry.npm.taobao.org/moment/download/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
 
