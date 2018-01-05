@@ -158,6 +158,16 @@
   dependencies:
     tslib "^1.7.1"
 
+"@angularclass/hmr-loader@^3.0.4":
+  version "3.0.4"
+  resolved "http://registry.npm.taobao.org/@angularclass/hmr-loader/download/@angularclass/hmr-loader-3.0.4.tgz#3e3a07ba835650c9015629b8e187fe8dcd5527b8"
+  dependencies:
+    loader-utils "^1.1.0"
+
+"@angularclass/hmr@^2.1.3":
+  version "2.1.3"
+  resolved "http://registry.npm.taobao.org/@angularclass/hmr/download/@angularclass/hmr-2.1.3.tgz#34e658ed3da37f23b0a200e2da5a89be92bb209f"
+
 "@ngtools/json-schema@1.1.0", "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/@ngtools/json-schema/download/@ngtools/json-schema-1.1.0.tgz#c3a0c544d62392acc2813a42c8a0dc6f58f86922"
