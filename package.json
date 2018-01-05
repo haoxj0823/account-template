@@ -26,6 +26,7 @@
     "block-ui": "^2.70.1",
     "core-js": "^2.4.1",
     "jquery": "^3.2.1",
+    "localforage": "^1.5.5",
     "moment": "^2.20.1",
     "moment-timezone": "^0.5.14",
     "rxjs": "^5.5.2",
