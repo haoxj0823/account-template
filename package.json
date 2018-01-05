@@ -42,7 +42,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/jquery": "^3.2.17",
     "@types/moment-timezone": "^0.5.3",
-    "@types/node": "~6.0.60",
+    "@types/node": "^4.0.35",
     "@types/semantic-ui": "^2.2.6",
     "@types/signalr": "^2.2.35",
     "@types/toastr": "^2.1.35",

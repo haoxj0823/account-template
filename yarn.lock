@@ -209,7 +209,11 @@
   dependencies:
     moment ">=2.14.0"
 
-"@types/node@^6.0.46", "@types/node@~6.0.60":
+"@types/node@^4.0.35":
+  version "4.0.35"
+  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-4.0.35.tgz#2b96b8e67bea7451e6e1ba8b65eaeb8f223261ed"
+
+"@types/node@^6.0.46":
   version "6.0.95"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-6.0.95.tgz#0d027612a77c55b84497ff90a4a7d597e5ac0fab"
 
