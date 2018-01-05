@@ -19,11 +19,23 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/sweetalert2/dist/sweetalert2.min.css",
+        "../node_modules/toastr/build/toastr.min.css",
+        
         "../vendors/semantic-ui/dist/semantic.min.css",
+
         "styles.scss"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
+
+        "../node_modules/block-ui/jquery.blockUI.js",
+        "../node_modules/moment/min/moment-with-locales.js",
+        "../node_modules/moment-timezone/builds/moment-timezone-with-data.js",
+        "../node_modules/spin.js/spin.js",
+        "../node_modules/sweetalert2/dist/sweetalert2.min.js",
+        "../node_modules/toastr/build/toastr.min.js",
+
         "../vendors/semantic-ui/dist/semantic.min.js"
       ],
       "environmentSource": "environments/environment.ts",
